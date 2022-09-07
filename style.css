@@ -5,3 +5,7 @@ body {
 .css-nav li a {
     margin-right: 20px;
 }
+
+.css-carousel img {
+    filter: brightness(50%);
+}
