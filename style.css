@@ -9,3 +9,25 @@ body {
 .css-carousel img {
     filter: brightness(50%);
 }
+/* Student FeedBack Slider Arrow */
+
+.css-slide-arrow{
+    position: relative;
+    font-size: 40px;
+    top: -17rem;
+    left: -1.2rem;
+}
+
+#left-arrow{
+    color: #a5dcfc;
+    float: left;
+}
+
+#right-arrow{
+    color: #289BDE;;
+    position: relative;
+    right: -1.2rem;
+    float: right;
+}
+
+/* Student FeedBack Slider Arrow */
