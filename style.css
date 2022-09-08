@@ -2,9 +2,10 @@
 
 :root{
     --color-white: #FFFFFF;
+    --color-dark-white: #F4F4F4;
     --color-paragraph: #777777;
     --color-large-heading: #1D1D1D;
-    --color-small-heading: #4A4A4A;
+    --color-medium-heading: #4A4A4A;
     --color-button: #289BDE;
     --color-footer: #161616;
     --color-footer-text: #E8E8E8;
@@ -19,10 +20,22 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.css-lg-heading {
+    color: var(--color-large-heading);
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.css-paragraph-color {
+    color: var(--color-paragraph);
+}
+
 .css-button {
     color: var(--color-white);
     background-color: var(--color-button);
     padding: 15px 45px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .css-register-btn {
@@ -30,15 +43,46 @@ body {
     background-color: var(--color-white);
     border: 1px solid var(--color-button);
     padding: 15px 45px;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.css-md-heading{
+    color: var(--color-medium-heading);
+    font-size: 20px;
+}
+
+.css-md-heading-color {
+    color: var(--color-medium-heading);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.css-bg-blue {
+    background-color: var(--color-button);
+}
+
+.css-color-dark-white {
+    color: var(--color-dark-white);
+}
+.css-text-color-blue {
+    color: var(--color-button);
+    font-weight: 600;
+}
+
+.css-color-white {
+    color: var(--color-white);
+    font-weight: 600;
 }
 
 /* General CSS Ends */
 
 /* Navigation Bar CSS Starts */
 
+
 .css-nav li a {
     margin-right: 20px;
+    color: var(--color-paragraph);
 }
 
 /* Navigation Bar CSS Ends */
@@ -76,13 +120,13 @@ body {
 
 /* Footer Section CSS Starts */
 footer{
-    background-color: #161616;;
+    background-color: var(--color-footer);
 }
 
 .css-social-icon i {
     font-size: 25px;
     margin: 0.50rem;
-    background-color: #242424;
+    background-color: var(--color-bg-icon);
     border-radius: 50%;
     padding: 10px;
     color: white;
