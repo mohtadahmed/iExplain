@@ -23,7 +23,6 @@ body {
 .css-lg-heading {
     color: var(--color-large-heading);
     font-weight: 600;
-    font-size: 45px;
 }
 
 .css-paragraph-color {
@@ -47,15 +46,10 @@ body {
     font-size: 20px;
 }
 
-.css-md-heading{
-    color: var(--color-medium-heading);
-    font-size: 20px;
-}
 
 .css-md-heading-color {
     color: var(--color-medium-heading);
     font-weight: 600;
-    font-size: 25px;
 }
 
 .css-bg-blue {
@@ -78,7 +72,6 @@ body {
 /* General CSS Ends */
 
 /* Navigation Bar CSS Starts */
-
 
 .css-nav li a {
     margin-right: 20px;
