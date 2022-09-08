@@ -1,14 +1,56 @@
+/* CSS Variable Starts */
+
+:root{
+    --color-white: #FFFFFF;
+    --color-paragraph: #777777;
+    --color-large-heading: #1D1D1D;
+    --color-small-heading: #4A4A4A;
+    --color-button: #289BDE;
+    --color-footer: #161616;
+    --color-footer-text: #E8E8E8;
+    --color-bg-icon: #242424;
+}
+
+/* CSS Variable Ends */
+
+/* General CSS Starts  */
+
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.css-button {
+    color: var(--color-white);
+    background-color: var(--color-button);
+    padding: 15px 45px;
+}
+
+.css-register-btn {
+    color: var(--color-button);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-button);
+    padding: 15px 45px;
+    font-weight: bold;
+}
+
+/* General CSS Ends */
+
+/* Navigation Bar CSS Starts */
 
 .css-nav li a {
     margin-right: 20px;
 }
 
+/* Navigation Bar CSS Ends */
+
+/* Banner Image Slider CSS Starts */
+
 .css-carousel img {
     filter: brightness(50%);
 }
+
+/* Banner Imgae Slider CSS Ends */
+
 /* Student FeedBack Slider Arrow */
 
 .css-slide-arrow{
@@ -32,7 +74,7 @@ body {
 
 /* Student FeedBack Slider Arrow */
 
-/* Footer Section CSS */
+/* Footer Section CSS Starts */
 footer{
     background-color: #161616;;
 }
@@ -45,4 +87,4 @@ footer{
     padding: 10px;
     color: white;
 }
-/* Footer Section CSS */
+/* Footer Section CSS Ends */
